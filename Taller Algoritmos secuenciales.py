@@ -84,3 +84,12 @@ print("Porcentaje de la primera persona: ",porcentaje1, "%")
 print("Porcentaje de la segunda persona: ",porcentaje2, "%")
 print("Porcentaje de la tercera persona: ",porcentaje3, "%")
 print("")
+
+# 4. Un banco da a sus ahorradores un interes de 1.5% sobre el monto ahorrado. Teniendo como dato de entrada el saldo inicial del ahorrador determine el saldo final.
+
+print("4/ Determinar saldo final del ahorrador")
+montoAhorrado = int(input("Monto ahorrado de la persona: "))
+saldoInteres = (0.015 * montoAhorrado)
+total = saldoInteres + montoAhorrado
+print("El saldo final es: ", total)
+print("")
