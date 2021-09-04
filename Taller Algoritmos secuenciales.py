@@ -196,3 +196,15 @@ total = (tour * dias * personas) + iva
 print("El monto a pagar de la familia es: ",total)
 print("")
 
+# 14. Un Hotel 5 Estrellas de Santa Marta tiene una promoción para sus clientes. Cobra por una habitación $100.000 el primer día y por el resto $200.000 por día. 
+# Realice un algoritmo que determine el valor total a pagar por la habitación si la estadía fue de varios días.
+print("14/ Determine el monto a pagar por la habitacion")
+primerDia = 100000
+resto = 200000
+dias = int(input("Numero de dias de estadia en la habitacion: "))
+if dias <= 1:
+    print("El valor a pagar es: $",primerDia)
+else:
+    total = primerDia + (resto * (dias -1))
+    print("El valor a pagar es: $",total)
+print("")
