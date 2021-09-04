@@ -162,3 +162,18 @@ total = (rollo * revelados) + cobradoIva
 print("El monto a pagar por los revelados con el iva es: ",total)
 print("")
 
+# 11. En un hospital existen tres áreas: Ginecología, Pediatría y Traumatología. El presupuesto anual del hospital se reparte conforme a la siguiente tabla:
+# - Ginecologia 40%
+# - Traumatologia 30%
+# - Pediatria 30%
+#Obtener la cantidad de dinero que recibirá cada área, para cualquier monto presupuestal.
+print("11/ Determinar presupuesto por area")
+presupuesto = int(input(" Presupuesto total para el hospital: "))
+ginecologia = presupuesto * 0.40
+traumatologia = presupuesto * 0.30
+pediatria = presupuesto * 0.30
+print(" El presupuesto para ginecologia es: ",ginecologia, "\n",
+      "El presupuesto para traumatologia es: ", traumatologia, "\n",
+      "El presupuesto para pediatria es: ",pediatria)
+print("")
+
