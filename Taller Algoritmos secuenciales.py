@@ -50,4 +50,13 @@ pasocuatro = 15 * 3 - 9/3
 final = (pasotres + pasocuatro)**2 - 5/4
 print("Resultado final = ", final)
 
+# Realizar los algoritmos que den solución a la problemática presentada en los siguientes ejercicios:
 
+# 1.Haga un algoritmo que calcule la masa de la siguiente fórmula: Masa = (presión * volúmen) / (0.37 * (temperatura + 460))
+print("1/ Calcule la masa con su formula:  Masa = (presion * volumen) / (0.37 * (temperatura + 460)) ")
+volumen = int(input("Escriba el valor del volumen: "))
+presion = int(input("Escriba el valor de la presion: "))
+temperatura = int(input("Escriba el valor de la temperatura: "))
+masa =  (presion * volumen) / (0.37 * (temperatura + 460))
+print("El valor de la masa es: ", masa)
+print("")
