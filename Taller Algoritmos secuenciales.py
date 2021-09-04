@@ -52,7 +52,7 @@ print("Resultado final = ", final)
 
 # Realizar los algoritmos que den solución a la problemática presentada en los siguientes ejercicios:
 
-# 1.Haga un algoritmo que calcule la masa de la siguiente fórmula: Masa = (presión * volúmen) / (0.37 * (temperatura + 460))
+# 1. Haga un algoritmo que calcule la masa de la siguiente fórmula: Masa = (presión * volúmen) / (0.37 * (temperatura + 460))
 print("1/ Calcule la masa con su formula:  Masa = (presion * volumen) / (0.37 * (temperatura + 460)) ")
 volumen = int(input("Escriba el valor del volumen: "))
 presion = int(input("Escriba el valor de la presion: "))
@@ -60,3 +60,11 @@ temperatura = int(input("Escriba el valor de la temperatura: "))
 masa =  (presion * volumen) / (0.37 * (temperatura + 460))
 print("El valor de la masa es: ", masa)
 print("")
+
+# 2. Calcular el número de pulsaciones que una persona debe tener por cada 10 segundos de ejercicio, si la fórmula es: Num. Pulsaciones = (200 – edad) /10.
+print("2/ Calcule las pulsaciones con su formula: Num. Pulsaciones = (200 - edad) /10.")
+edad = int(input("Digite su edad: "))
+pulsaciones = int((200 - edad) / 10)
+print("El numero de pulsaciones que usted tiene es: ", pulsaciones)
+print("")
+
