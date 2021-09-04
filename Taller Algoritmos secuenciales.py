@@ -177,3 +177,11 @@ print(" El presupuesto para ginecologia es: ",ginecologia, "\n",
       "El presupuesto para pediatria es: ",pediatria)
 print("")
 
+# 12. Una video tienda alquila DVD a $1.500 el día. Tiene una promoción que consiste en dejar gratis el alquiler de una película. Realice un algoritmo que teniendo como dato de entrada el total de películas alquiladas, y el número de días de alquiler, determine el monto a pagar.
+print("12/ Determinar monto a pagar por las peliculas alquiladas")
+dvd = 1500
+dias = int(input("Numero de dias alquilados: "))
+peliculas = int(input("Numero de peliculas alquiladas: "))
+total = (dias * dvd ) * (peliculas - 1)
+print("El total a pagar es: ",total)
+print("")
