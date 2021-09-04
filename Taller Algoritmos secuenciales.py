@@ -68,3 +68,19 @@ pulsaciones = int((200 - edad) / 10)
 print("El numero de pulsaciones que usted tiene es: ", pulsaciones)
 print("")
 
+# 3. Tres personas deciden invertir su dinero para fundar una empresa. Cada una de ellas invierte una cantidad distinta. Obtener el porcentajeque cada quien invierte con respecto a la cantidad total invertida.
+print("3/ Porcentaje de la inversion con respecto a la total")
+inversion1 = int(input("Inversion de la primera persona: "))
+inversion2 = int(input("Inversion de la segunda persona: "))
+inversion3 = int(input("Inversion de la tercera persona: "))
+
+inversionTotal = inversion1 + inversion2 + inversion3
+
+porcentaje1 = (inversion1/inversionTotal) * 100
+porcentaje2 = (inversion2/inversionTotal) * 100
+porcentaje3 = (inversion3/inversionTotal) * 100
+
+print("Porcentaje de la primera persona: ",porcentaje1, "%")
+print("Porcentaje de la segunda persona: ",porcentaje2, "%")
+print("Porcentaje de la tercera persona: ",porcentaje3, "%")
+print("")
