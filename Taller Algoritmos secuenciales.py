@@ -208,3 +208,18 @@ else:
     total = primerDia + (resto * (dias -1))
     print("El valor a pagar es: $",total)
 print("")
+
+# 15. El banco del Pueblo da microcréditos a empresarios para ser cancelados en un lapso de 2 años (24 meses). Al monto del préstamo se le cobra un interés del 24%.
+# El empresario debe pagar la mitad del préstamo en 4 cuotas especiales y la otra mitad en 20 cuotas ordinarias. Realice un algoritmo que teniendo como dato de entrada el monto del préstamo, determine el monto total a pagar por el préstamo, el monto de las cuotas especiales y el monto de las cuotas ordinarias.
+print("15/ Determinar el monto total a pagar por el prestamo")
+prestamo = int(input("Ingrese monto del prestamo: "))
+periodo = 24
+interes = prestamo * 0.24
+total = prestamo + interes
+separacionCuotas = total / 2
+especiales = (separacionCuotas / 4)
+ordinarias = (separacionCuotas / 20)
+print("El monto total a pagar es: ",total)
+print("El monto a pagar en cuotas especiales es: ",especiales)
+print("El monto a pagar en cuotas ordinarias es: ",ordinarias)
+print("")
