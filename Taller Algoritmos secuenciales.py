@@ -185,3 +185,14 @@ peliculas = int(input("Numero de peliculas alquiladas: "))
 total = (dias * dvd ) * (peliculas - 1)
 print("El total a pagar es: ",total)
 print("")
+
+# 13. Una Agencia de viajes cobra por un Tour a Cartagena $25.000 diarios por persona. Realice un algoritmo que determine el monto a pagar por una familia que desee realizar dicho Tour sabiendo que también cobran el 12% de IVA.
+print("13/ Determinar el monto a pagar de una familia en el tour")
+tour = 25000
+dias = int(input("Numero de dias en el tour: "))
+personas = int(input("Numero de personas en el tour: "))
+iva = (tour * dias * personas) * 0.12
+total = (tour * dias * personas) + iva
+print("El monto a pagar de la familia es: ",total)
+print("")
+
