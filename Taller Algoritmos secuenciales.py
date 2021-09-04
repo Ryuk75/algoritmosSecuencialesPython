@@ -119,3 +119,17 @@ valorCo = int(input("Numero de colores que llevara el periodico: "))
 total = ((palabras * valorP) + (centimetro * valorCen) + (colores * valorCo))
 print("El monto a pagar por el aviso clasificado es: ", total)
 print("")
+
+# 7. Una empresa paga a sus empleados un bono por antigüedad que consiste en $100.000 por el primer año laboral y $120.000 por cada año siguiente. Realice un algoritmo que determine el monto del bono a pagar a un trabajador que tiene varios años en la empresa.
+print("7/ Determine el valor del bono del trabajador")
+bono1 = 100000
+bono2 = 120000
+años = int(input("Cuantos años lleva el trabajador? "))
+if años < 1:
+    print("No lleva el año")
+elif años==1: 
+    print("El bono del trabajador es: ",bono1)
+else:
+    total = bono1 + (bono2* (años-1))
+    print("El bono del trabajador es: ", total)
+print("")
