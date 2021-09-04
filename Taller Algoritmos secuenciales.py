@@ -133,3 +133,14 @@ else:
     total = bono1 + (bono2* (años-1))
     print("El bono del trabajador es: ", total)
 print("")
+
+# 8. Una Universidad le paga a sus profesores $20.000 la hora y le hace un descuento del 5% por concepto de caja de ahorro. Determine el monto del descuento y el monto total a pagar al profesor.
+print("8/ Determinar el monto total a pagar al profesor")
+pagoHora = 20000
+descuento = 0.05
+horas = int(input("Horas que trabajó el profesor: "))
+montoDescuento = pagoHora * descuento
+total = (pagoHora - montoDescuento) * horas
+print("El monto total a pagar al profesor es: ",total)
+print("")
+
