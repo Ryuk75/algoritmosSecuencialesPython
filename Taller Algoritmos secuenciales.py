@@ -35,3 +35,19 @@ print("Segundo paso: (( (z+2-n)^2 * m+8/2 -30 ) / 2 * 5 -3)^ 5 = ",pasodos)
 print("Tercer paso: 15 * 3 - 9/3 = ", pasotres)
 print("Resultado final = ", final)
 
+# 3. z=5 n=( (8+2-4)^2 * 5+8+7/2 -30*5 ) / 2 * 5 -3 m= z^2*3+n
+# y = ((( (z+2-n)^2 x m+8/2 -30 ) / 2 * 5 -3)^ 5 + 15 * 3 - 9/3) ^ 2 - 5/4
+
+print("Calcular y = ((( (z+2-n)^2 x m+8/2 -30 ) / 2 * 5 -3)^ 5 + 15 * 3 - 9/3) ^ 2 – 5/4" + "\n" + 
+      "z=5  n=( (8+2-4)^2 * 5+8+7/2 -30*5 ) / 2 * 5 -3  m= z^2*3+n")
+z=5
+n=((8+2-4)**2 * 5+8+7/2 -30*5 ) / 2 * 5 -3
+m= z**2*3+n
+pasouno = (z+2-n)**2
+pasodos = pasouno * 2 + 8 / 2 - 30
+pasotres = (pasodos / 2 * 5 - 3) **5
+pasocuatro = 15 * 3 - 9/3
+final = (pasotres + pasocuatro)**2 - 5/4
+print("Resultado final = ", final)
+
+
