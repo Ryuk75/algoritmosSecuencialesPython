@@ -18,6 +18,7 @@ final = pasodos / 2 * 5 - 3
 print("Primer paso: (5+2-5)**2 = ",pasouno)
 print("Segundo paso: ( (5+2-5)^2 * 5+8/2 -30 ) = ",pasodos)
 print("Resultado final = ", final)
+print("")
 
 # 2. z=5 n=3 m= z-n
 # y = (( (z+2-n)^2 * m+8/2 -30 ) / 2 * 5 -3)^ 5 + 15 * 3 - 9/3
@@ -34,6 +35,7 @@ print("Primer paso: (z+2-n)**2 = ",pasouno)
 print("Segundo paso: (( (z+2-n)^2 * m+8/2 -30 ) / 2 * 5 -3)^ 5 = ",pasodos)
 print("Tercer paso: 15 * 3 - 9/3 = ", pasotres)
 print("Resultado final = ", final)
+print("")
 
 # 3. z=5 n=( (8+2-4)^2 * 5+8+7/2 -30*5 ) / 2 * 5 -3 m= z^2*3+n
 # y = ((( (z+2-n)^2 x m+8/2 -30 ) / 2 * 5 -3)^ 5 + 15 * 3 - 9/3) ^ 2 - 5/4
@@ -49,6 +51,7 @@ pasotres = (pasodos / 2 * 5 - 3) **5
 pasocuatro = 15 * 3 - 9/3
 final = (pasotres + pasocuatro)**2 - 5/4
 print("Resultado final = ", final)
+print("")
 
 # Realizar los algoritmos que den solución a la problemática presentada en los siguientes ejercicios:
 
@@ -93,3 +96,13 @@ saldoInteres = (0.015 * montoAhorrado)
 total = saldoInteres + montoAhorrado
 print("El saldo final es: ", total)
 print("")
+
+# 5. Una empresa le hace los siguientes descuentos sobre el sueldo base a sus trabajadores: 1% por ley de politica pública, 4% por seguro social, 0.5% por seguro forzoso y 5% por caja de ahorro. Realice un algoritmo que determine el monto de cada descuento y el monto total a pagar al trabajador.
+print("5/ Determinar el descuento que se hace al sueldo individualmente y el total")
+sueldo = int(input("Digite el sueldo sin descuentos: "))
+leyPolitica = int((sueldo * 0.01))
+seguroSocial = int((sueldo * 0.04))
+seguroForzoso = int((sueldo * 0.005))
+cajaAhorro = int((sueldo * 0.05))
+montoTotal = int((sueldo - leyPolitica - seguroSocial - seguroForzoso - cajaAhorro))
+print("Monto total a pagar: ",montoTotal)
