@@ -144,3 +144,11 @@ total = (pagoHora - montoDescuento) * horas
 print("El monto total a pagar al profesor es: ",total)
 print("")
 
+#Un centro de comunicaciones alquilan tarjetas para realizar llamadas y cobran el monto consumido de la tarjeta mas un recargo del 20%. Teniendo como dato de entrada el monto inicial y el monto final de la tarjeta, determine el costo de la llamada.
+print("9/ Determinar el costo de la llamada")
+inicial = int(input("Monto inicial de la tarjeta: "))
+final = int(input("Monto final de la tarjeta: "))
+recargo = (inicial - final ) * 0.2
+total = (inicial - final) + recargo
+print("El costo de la llamada es: ",total)
+print("")
